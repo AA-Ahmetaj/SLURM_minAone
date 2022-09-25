@@ -1,6 +1,6 @@
 IN ORDER TO RUN THIS EXPERIMENT:
 1)Log in to your cluster account.
-2)Upload the current git repo to your account by first downloading it your computer and then uploading using the instructions on this file""https://github.com/AA-Ahmetaj/SLURM_minAone/blob/main/SLURM_HPC_guideline.pdf".
+2)Upload the current git repo to your account by first downloading it your computer and then uploading it using the instructions on this file""https://github.com/AA-Ahmetaj/SLURM_minAone/blob/main/SLURM_HPC_guideline.pdf".
 3)Open a jupyter notebook on your cluster account using the instructions mentioned on "https://github.com/AA-Ahmetaj/SLURM_minAone/blob/main/SLURM_HPC_guideline.pdf"
 4)Open "forward_integration.ipynb" and run all the cells using Jupyter Notebook
 5)Open a new terminal window and log into your cluster account again.
