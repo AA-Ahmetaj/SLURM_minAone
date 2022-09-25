@@ -10,4 +10,5 @@ IN ORDER TO RUN THIS EXPERIMENT:
                    b)make
                    c)./neutrinos.cpp
                    d)sbatch submit.sbatch
-8) Lastly plot the results by running "plotting_code.ipynb" on your Jupyter Notebook.
+8) Wait for the job to finish computing.
+9) Lastly, once all the .dat files have been fully compiled, plot the results by running "plotting_code.ipynb" on your Jupyter Notebook.
