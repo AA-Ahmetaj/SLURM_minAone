@@ -1,7 +1,13 @@
-THIS REPOSITORY CONTAINS INFORMATION ON HOW TO RUN THE MINAONE PACKAGES ON A SLURM-HPC CLUSTER USING BATCH SCRIPTS.
-THE SLURM_HPC_GUIDELINE CONTAINS A GENERAL INTRODUCTION TO SLURM-HPC, A LIST OF SLURM COMMANDS AND INSTRUCTIONS ON HOW TO CREATE A JUPYTER NOTEBOOK ON A SLURM-HPC CLUSTER.
-THE UserGuide_minAone CONTAINS INFORMATION ON THE MINAONE PACKAGES AND INSTRUCTIONS ON HOW TO WRITE THE EQUATIONS, SPECS AND INJECTION FILES NEEDED FOR THESE ANNEALING PROCEDURES TO WORK.
-THE "SUBMIT.SBATCH" SCRIPT IS USED SUBMIT THE ANNEALING PROCEDURE AS A COMPUTATIONAL JOB ON A SLURM-HPC CLUSTER. THIS FILE CONTAINS EXTENSIVE COMMENTS FOR EACH LINE SO THAT LATER CHANGE OF ANY TASK PARAMETER WILL SEEM FEASIBLE.
-THE "EXAMPLES" FOLDER CONTAINS EXPERIMENTS THAT USE FORWARD INTEGRATION AND INTERIOR POINT OPTIMIZATION TECHNIQUES IN ORDER TO DERIVE AND COMPARE THE SOLUTIONS TO A SET OF DYNAMIC STATE EQUATIONS. IN ORDER TO RUN THESE EXPERIMENTS ACCURATELY, REFER TO THE "LIST OF INSTRUCTIONS" FILE LOCATED UNDER "EXAMPLES".
-ALL THE MINAONE SCRIPTS MENTIONED ON THIS REPOSITORY HAVE BEEN CREATED BY JINGXIN ET AL, AND CAN BE FOUND AT
+This repository contains information on how to run the minAone packages on a SLURM-HPC cluster using batch scripts.
+All the examples contained in this repo are run by following this list of instructions:
+       1) Run the forward integration code
+       2) Compile the minAone python scripts
+       3) Submit the optimization task as a batch job
+       4) Visualize the results
+FOR A DETAILED LIST OF INSTRUCTIONS ON HOW TO RUN THESE JOBS, PLEASE REFER TO THE “EXAMPLES” DIRECTORY.
+The “slurm_hpc_guideline.pdf” contains a general introduction to SLURM-HPC, a list of SLURM commands and instructions on how to create a Jupyter Notebook on a SLURM-HPC cluster.
+The userguide_minaone contains information on the minAone packages and instructions on how to write the equations, specs and injection files needed for these annealing procedures to work.
+The "submit.sbatch" script is used submit the annealing procedure as a computational job on a SLURM-HPC cluster. this file contains extensive comments for each line so that later change of any task parameter will seem feasible.
+all the minAone scripts mentioned on this repository have been created by jingxin et al, and can be found at
  https://github.com/yejingxin/minAone .
+
